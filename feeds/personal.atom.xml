@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CodeGilla</title><link href="http://rohithgilla.me/blog/" rel="alternate"></link><link href="http://rohithgilla.me/blog/feeds/personal.atom.xml" rel="self"></link><id>http://rohithgilla.me/blog/</id><updated>2018-10-10T00:00:00+02:00</updated><entry><title>My First Blog Post</title><link href="http://rohithgilla.me/blog/Intro.html" rel="alternate"></link><published>2018-10-10T00:00:00+02:00</published><updated>2018-10-10T00:00:00+02:00</updated><author><name>Rohith Gilla</name></author><id>tag:rohithgilla.me,2018-10-10:blog/Intro.html</id><summary type="html">&lt;p&gt;This is the content of my super blog post.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install requirements.txt  
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;requests&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://www.google.com/&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Omg!! I could't believe that I have started blogging already :) !!&lt;/p&gt;
+&lt;h1&gt;PyCon-Twitter-Bot&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://forthebadge.com"&gt;&lt;img alt="forthebadge" src="https://forthebadge.com/images/badges/built-with-love.svg" /&gt;&lt;/a&gt; &lt;a href="https://forthebadge.com"&gt;&lt;img alt="forthebadge" src="https://forthebadge.com/images/badges/made-with-python.svg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Pre-requisites&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Twitter Account&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Modules required&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;tweepy&lt;/li&gt;
+&lt;li&gt;time&lt;/li&gt;
+&lt;li&gt;django.utils.encoding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install requirements.txt  
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Creating twitter api credentials&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to the following &lt;a href="https://apps.twitter.com/" title="Twitter App"&gt;link&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Click the create app button&lt;/li&gt;
+&lt;li&gt;Fill the necessary details like :&lt;ul&gt;
+&lt;li&gt;Name of the bot.&lt;/li&gt;
+&lt;li&gt;Website name.&lt;/li&gt;
+&lt;li&gt;Description.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goto Keys and tokens and generate your access tokens.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Using the tweepy api&lt;/h3&gt;
+&lt;p&gt;Authorise the app with tweepy api with consumer keys and access tokens.
+Now replace the credentials in the code with your credentials and search hashtags with
+the one which you wanted and enjoy the app up and running.&lt;/p&gt;
+&lt;h3&gt;Hosting in heroku&lt;/h3&gt;
+&lt;p&gt;Use the following commands to host this app in heroku&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;heroku create
+git add .
+git commit -m &lt;span class="s2"&gt;&amp;quot;initial commit&amp;quot;&lt;/span&gt;
+git push heroku master
+heroku ps:scale &lt;span class="nv"&gt;worker&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
+heroku logs --tail
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href="http://hits.dwyl.io/Rohithgilla12/PyCon-Twitter-Bot"&gt;&lt;img alt="HitCount" src="http://hits.dwyl.io/Rohithgilla12/PyCon-Twitter-Bot.svg" /&gt;&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>
